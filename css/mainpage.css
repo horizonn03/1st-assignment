@@ -1,0 +1,79 @@
+div {
+  box-sizing: border-box;
+}
+
+.title-logo {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.description {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 350;
+  margin-top: 290px;
+}
+
+.photo__list {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.first__photo {
+  height: 150px;
+  border-radius: 5%;
+  margin-left: 20px;
+}
+
+.second__photo {
+  height: 150px;
+  border-radius: 5%;
+  margin-left: 20px;
+}
+
+.third__photo {
+  height: 150px;
+  border-radius: 5%;
+  margin-left: 20px;
+}
+
+.next-level {
+  color: #c1c1c1;
+  margin: 45px 48px;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: #c1c1c1;
+  margin-left: 20px;
+}
+
+.fourth-description {
+  font-size: 15px;
+  color: #c1c1c1;
+  margin-left: 50px;
+}
+
+.first__photo:hover {
+  border: 2px solid white;
+}
+
+.second__photo:hover {
+  border: 2px solid white;
+}
+
+.third__photo:hover {
+  border: 2px solid white;
+}
+
+.next-level:hover {
+  color: white;
+}
