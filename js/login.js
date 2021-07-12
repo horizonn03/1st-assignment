@@ -8,7 +8,10 @@ function onLoginSubmit(event){
     localStorage.setItem(USERNAME_KEY,username);
     const savedUsername = localStorage.getItem(USERNAME_KEY);
     alert("Hello " + savedUsername + "님 Welcome to my Naeflix!");
-    location.href="https://horizonn03.github.io/1st-assignment/introduce.html";
+    location.href="file:///Users/doyoung/Desktop/1st-assignment/introduce.html";
 }
 
-loginForm.addEventListener("submit", onLoginSubmit);
+loginform.addEventListener("submit", (e) => {
+    e.preventDefault();
+    window.location.href = "introduce.html";
+  });
