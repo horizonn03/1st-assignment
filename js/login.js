@@ -11,7 +11,7 @@ function onLoginSubmit(event){
     location.href="file:///Users/doyoung/Desktop/1st-assignment/introduce.html";
 }
 
-loginform.addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
     window.location.href = "introduce.html";
   });
