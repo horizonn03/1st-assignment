@@ -1,0 +1,25 @@
+.door__logo {
+  width: 150px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+
+.door__main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message__list {
+  display: flex;
+  font-size: 40px;
+  height: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  margin-bottom: 30px;
+}

@@ -13,101 +13,24 @@
     />
   </head>
   <body>
-    <div class="title-logo">
+    <nav>
       <img
-        class="logo"
+        class="door__logo"
         src="https://fontmeme.com/permalink/210701/b8e1345b360125ba6e72c4a4f140d5bb.png"
       />
-    </div>
-    <div class="description">내(소개)플릭스를 알아볼 사진을 선택하세요.</div>
-    <div class="photo">
-      <ul class="photo__list">
-        <li>
-          <a href="#pop1">
-            <img class="first__photo" src="img/IMG_3333.jpg" />
-          </a>
-          <span>Profile</span>
-        </li>
-        <li>
-          <a href="#pop2">
-            <img
-              class="second__photo"
-              src="img/KakaoTalk_Photo_2021-07-03-19-28-05.jpeg"
-            />
-          </a>
-          <span>Ex Multiplex Manager</span>
-        </li>
-        <li>
-          <a href="#pop3">
-            <img class="third__photo" src="img/IMG_0482.JPG" />
-          </a>
-          <span>Bread Holic</span>
-        </li>
-        <li>
-          <a href="#pop4">
-            <div class="next-level">
-              <i class="fas fa-plus-circle fa-4x"></i>
-            </div>
-          </a>
-          <div class="fourth-description">Next Level</div>
-        </li>
-      </ul>
-    </div>
-    <div class="first__popup" id="pop1">
-      <a href="#a">CLOSE</a>
-      <img src="img/IMG_9286.jpg" />
-      <div class="first__profile">
-        <p>✓ 이름: 정도영</p>
-        <p>✓ MBTI: INFJ</p>
-        <p>✓ 좌우명: 역지사지</p>
-        <p>✓ 취미: 커피내려마시기, 빵집투어(가끔 베이킹)</p>
-        <p>✓ 좋아하는 유튜브채널: 닷페이스, 삥타이거, 프린들TV, 세상학개론</p>
+    </nav>
+    <main class="door__main">
+      <div class="message__list">
+        <h1 class="title__message">'ALL ABOUT MYSELF'</h1>
+        <h1 class="welcome__message">You can watch my story from</h1>
+        <h2 id="clock">00:00:00</h2>
       </div>
-    </div>
-
-    <div class="second__popup" id="pop2">
-      <a href="#a">CLOSE</a>
-      <img src="img/IMG_2119.JPG" />
-      <div class="second__profile">
-        <p>✓ 첫(이전) 직업: 멀티플렉스 매니저</p>
-        <p>✓ 직업을 택한이유: 영화를 좋아해서 영화산업에서 일하고 싶었다!</p>
-        <p>✓ 좋았던 점: 영화를 공짜로 맘껏 볼수 있었다.</p>
-        <p>
-          ✓ 안좋았던 점: 스케줄근무(남들 쉴때 못쉰다), 진상고객(인류애 상실)
-        </p>
-      </div>
-    </div>
-
-    <div class="third__popup" id="pop3">
-      <a href="#a">CLOSE</a>
-      <img src="img/IMG_2038.JPG" />
-      <div class="third__profile">
-        <p>✓ 가장 좋아하는 음식은 빵입니다.</p>
-        <p>✓ 전국에 있는 유명한 빵집을 방문하는 것을 좋아합니다.</p>
-        <p>✓ 베이킹을 배워서 직접 구워보기도 합니다.</p>
-        <p>✓ 맛있는 빵집 추천은 언제나 환영합니다!</p>
-      </div>
-    </div>
-
-    <div class="fourth__popup" id="pop4">
-      <a href="#a">CLOSE</a>
-      <img src="img/IMG_6164.jpg" />
-      <div class="fourth__profile">
-        <p>모르는 것이 무엇인지 조차 아직 잘 모르지만,</p>
-        <p>개발에 대해 조금씩 알아가고 있습니다.</p>
-        <p>
-          엉덩이가 무거운 사람이 승리한다는 말을 믿으며 열심히 배우겠습니다.
-        </p>
-        <p>개발을 통해 모두의 걱정거리가 하나씩은 사라지고,</p>
-        <p>조금 더 편안한 세상을 만들고 싶습니다.</p>
-        <p>horizonn03@gmail.com</p>
-      </div>
-    </div>
-
-    <div class="dim"></div>
-    <script
-      src="https://kit.fontawesome.com/fff1a880e3.js"
-      crossorigin="anonymous"
-    ></script>
+      <form id="login-form">
+        <input type="text" required placeholder="이름을 입력해주세요." />
+        <input type="submit" value="시작하기" />
+      </form>
+    </main>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
   </body>
 </html>

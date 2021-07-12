@@ -1,79 +1,48 @@
-div {
-  box-sizing: border-box;
-}
-
-.title-logo {
+.main__logo {
+  width: 150px;
   padding-left: 20px;
   padding-top: 20px;
 }
 
-.logo {
-  width: 150px;
+.main__choose {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.description {
-  text-align: center;
+.main__choose h1 {
   font-size: 32px;
   font-weight: 350;
-  margin-top: 240px;
 }
 
 .photo__list {
   display: flex;
   margin-top: 20px;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
-.first__photo {
-  height: 150px;
-  border-radius: 5%;
+.photo__list li {
+  text-align: center;
   margin-left: 20px;
 }
 
-.second__photo {
-  height: 150px;
-  border-radius: 5%;
-  margin-left: 20px;
+.profile__name {
+  padding-top: 10px;
 }
 
-.third__photo {
+.profile__photo {
   height: 150px;
   border-radius: 5%;
-  margin-left: 20px;
 }
 
 .next-level {
   color: #c1c1c1;
-  margin: 45px 48px;
+  padding: 45px 48px;
 }
 
-span {
-  display: block;
-  text-align: center;
-  font-size: 15px;
-  color: #c1c1c1;
-  margin-left: 20px;
-}
-
-.fourth-description {
-  font-size: 15px;
-  color: #c1c1c1;
-  margin-left: 50px;
-}
-
-.first__photo:hover {
-  border: 2px solid white;
-}
-
-.second__photo:hover {
-  border: 2px solid white;
-}
-
-.third__photo:hover {
-  border: 2px solid white;
-}
-
+.profile__photo:hover,
 .next-level:hover {
-  color: white;
+  border: 2px solid white;
 }
